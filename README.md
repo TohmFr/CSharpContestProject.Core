@@ -1,0 +1,1 @@
+# CSharpContestProject.Core
