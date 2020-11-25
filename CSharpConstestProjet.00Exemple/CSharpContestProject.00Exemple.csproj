@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>CSharpConstestProject._00Exemple</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="input1.txt" />
+    <None Remove="input2.txt" />
+    <None Remove="output1.txt" />
+    <None Remove="output2.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="input1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="input2.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="output1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="output2.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
